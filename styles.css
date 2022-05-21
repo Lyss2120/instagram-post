@@ -1,0 +1,97 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+
+}
+
+.post {
+    margin: 0 auto;
+    width: 600px;
+    margin-top: 4em;
+    margin-bottom: 2em;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.post-header {
+    display: flex;
+    height: 90px;
+    align-items: flex-end;
+
+}
+
+.post-header div {
+    width: 10%;
+    height: 90%;
+}
+
+.logoHtml {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0.5em;
+}
+
+.nombre {
+
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    padding-top: 10px;
+}
+
+.nombre h3 {
+
+    font-weight: 600;
+    font-size: 1.4em;
+}
+
+.nombre :first-child {
+    font-weight: 900;
+
+}
+
+.dotted {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    flex-grow: 6;
+    font-size: 3.5em;
+    margin-right: 0.5em;
+}
+
+
+/***/
+
+.post-body {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5em;
+}
+
+.post-img img {
+    width: 100%;
+    height: auto;
+}
+
+.font-a-icons {
+    font-size: 3em;
+    margin: 20px;
+}
+
+.cuarto {
+    float: right;
+    margin-right: 0.5em;
+}
+
+.post-body p {
+    padding: 5px 20px;
+}
